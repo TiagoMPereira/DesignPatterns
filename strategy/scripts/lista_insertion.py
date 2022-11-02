@@ -1,5 +1,5 @@
-from .lista_numeros import ListaNumeros
-from .ordenador.impl.insertion_sort import InsertionSort
+from strategy.scripts.lista_numeros import ListaNumeros
+from strategy.scripts.ordenador.impl.insertion_sort import InsertionSort
 
 class ListaInsertion(ListaNumeros):
 

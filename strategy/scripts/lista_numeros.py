@@ -1,6 +1,6 @@
 import abc
 import numpy as np
-from .sort import Ordenador
+from strategy.scripts.sort import Ordenador
 
 # Método abstrato para simular interface em python
 class ListaNumeros(abc.ABC):
@@ -9,4 +9,4 @@ class ListaNumeros(abc.ABC):
         self.ordenador = Ordenador
 
     def retorna_ordenado(self, lista):
-        return self.ordenador.ordena(lista)
+        return np.array(self.ordenador.ordena(lista))

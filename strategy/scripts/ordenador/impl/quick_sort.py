@@ -1,4 +1,4 @@
-from ...sort import Ordenador
+from strategy.scripts.sort import Ordenador
 
 from random import randint
 import numpy as np
