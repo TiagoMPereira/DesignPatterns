@@ -7,6 +7,7 @@ O primeiro passo para executar o projeto é cloná-lo na sua máquina. Para isso
 ```git clone https://github.com/TiagoMPereira/DesignPatterns.git```  
 Em seguida entre no diretório clonado  
 ```cd DesignPatterns```  
+
 ---
 ## Gerência de dependências
 No python a gerência de dependências é feita criando um ambiente virtual e especificando quais pacotes (e quais suas versões) serão utilizados no projeto. Para criar um ambiente virtual basta digitar o seguinte comando no terminal:  
@@ -19,12 +20,14 @@ Com o ambiente ativado basta importar as dependências:
 ```pip install -r requirements.txt```  
 Da mesma forma, é possível gerar o arquivo de dependências com todos os pacotes e versões utilizadas digitando:  
 ```pip freeze > requirements.txt```  
+
 ---
 ## Testes
 Caso o pytest não esteja nos requisitos instalados pelo requirements.txt é possível instalá-lo a parte.  
 ```pip install pytest```  
 Para executar os testes, basta rodar no terminal  
 ```pytest```
+
 ---
 ## CI
 Foi adicionada ao repositório uma ação automática para executar toda a suíte de testes sempre que um push for dado em qualquer uma das branches.
